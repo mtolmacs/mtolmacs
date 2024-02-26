@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -8,9 +8,37 @@ body {
   color: #1D2024;
 }
 
+h1, h2, h3, h4, h5, h6, .tagline {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
 footer {
   background-color: #1D2024;
   color: #FFF;
+}
+
+.testimonials {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:focus-within,
+.navbar-toggler:focus-visible {
+  box-shadow: 0 0;
+  outline: 0;
+}
+
+.t-bold {
+  font-weight: 600;
 }
 
 .highlight {
@@ -40,12 +68,11 @@ footer {
 }
 .btn-special:hover,
 .btn-special:focus,
-.btn-special:active,
 .btn-special::-moz-focus-inner {
-  border: none;
+  border: 0;
   outline: 0;
   box-shadow: none;
-  color: #ECF0F4;
+  color: #ECF0F4 !important;
 }
 .btn-special:active {
   animation: primaryClickedBg 1s linear infinite;
@@ -60,11 +87,3 @@ footer {
   }
 }
 
-h1, h2, h3, h4, h5, h6, .tagline {
-  font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-  font-size: 48px;
-  font-weight: 700;
-}
