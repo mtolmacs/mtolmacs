@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: normal;
+  background-color: #FFF;
+  color: #1D2024;
+}
+
+footer {
+  background-color: #1D2024;
+  color: #FFF;
+}
+
+.highlight {
+  color: #FF015D;
+}
+
+.tagline {
+  letter-spacing: 3px;
+}
+
+.shaded {
+  background-color: #1D2024;
+  color: #FFF;
+}
+
+.btn-special {
+  background: linear-gradient(104deg, #355ADE 0%, #FF015D 25%, #355ADE 50%, #FF015D 75%, #355ADE 100%);
+  background-size: 400% 400%;
+  background-position: 0% 0%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.10);
+  color: #ECF0F4;
+  padding: 15px 24px;
+  text-align: center;
+  display: inline-block;
+}
+.btn-special:hover,
+.btn-special:focus,
+.btn-special:active,
+.btn-special::-moz-focus-inner {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+  color: #ECF0F4;
+}
+.btn-special:active {
+  animation: primaryClickedBg 1s linear infinite;
+}
+
+@keyframes primaryClickedBg {
+  0% {
+      background-position: 100% 0%
+  }
+  100% {
+      background-position: 0% 100%
+  }
+}
+
+h1, h2, h3, h4, h5, h6, .tagline {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
