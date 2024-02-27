@@ -13,21 +13,26 @@ h1, h2, h3, h4, h5, h6, .tagline {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: 700;
-}
-
 footer {
   background-color: #1D2024;
   color: #FFF;
 }
 
 .testimonials {
-  font-style: italic;
   font-weight: 300;
   font-size: 13px;
   line-height: normal;
+}
+.testimonials p {
+  quotes: '\201c' '\201d';
+}
+.testimonials p:before {
+  content: open-quote;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 72px;
+  color: grey;
+  position: absolute;
+  margin-top: -45px;
 }
 
 .navbar-toggler,
@@ -44,6 +49,10 @@ footer {
 
 .highlight {
   color: #FF015D;
+}
+.nameplate {
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .tagline {
@@ -88,3 +97,9 @@ footer {
   }
 }
 
+#services .card-title {
+  min-height: 56px;
+}
+#services .card-text {
+  min-height: 160px;
+}
