@@ -17,6 +17,7 @@ gem "jekyll", "~> 3.9.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-sitemap", "~> 1.4"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -38,3 +39,6 @@ gem "github-pages", "~> 228", group: :jekyll_plugins
 
 # Home testing
 gem "webrick", "~> 1.8"
+
+# Sitemap and robots.txt
+gem "jekyll-sitemap", "~> 1.4"
